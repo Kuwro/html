@@ -1,0 +1,70 @@
+body {
+  margin: 0px;
+}
+
+.cv-document {
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: arial, sans-serif, tahoma;
+  font-size: 10pt;
+}
+
+.cv-page {
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  text-decoration: none;
+  width: 1500px;
+  min-height: 100px;
+  margin: 0 auto;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
+  background-color: #fff;
+  position: relative;
+
+  padding: 40px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.section {
+  margin-bottom: 40px;
+}
+.section-title {
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid gray;
+}
+.row-info {
+  display: flex;
+  padding: 3px 0;
+}
+.row-info > b {
+  width: 100px;
+}
+#info {
+  position: relative;
+}
+#info img {
+  position: absolute;
+  width: 113px;
+  right: 0;
+}
+#info h1 {
+  color: #0e2452;
+  border-bottom: none;
+}
+.block-element {
+  display: block;
+}
